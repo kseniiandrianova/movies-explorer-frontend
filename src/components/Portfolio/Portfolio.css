@@ -1,0 +1,110 @@
+.portfolio {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 70px;
+    margin: auto;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .portfolio {
+        width: 100%;
+        max-width: 768px;
+        padding: 0 50px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .portfolio {
+        max-width: 320px;
+        padding: 69px 14px;
+    }
+}
+.portfolio__title {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A0A0A0;
+    mix-blend-mode: normal;
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .portfolio__title {
+        font-size: 14px;
+line-height: 20px;
+margin-bottom: 40px;
+    }
+}
+.portfolio__box {
+    margin-top: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1140px;
+    padding-bottom: 125px;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .portfolio__box {
+        width: 668px;
+        padding-bottom: 90px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .portfolio__box {
+        width: 292px;
+        list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+}
+.portfolio__link {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    padding: 20px 0;
+    border-bottom: 1px solid #E8E8E8;
+    text-decoration: none;
+    color: #000000;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .portfolio__link {
+        font-size: 28px;
+        line-height: 50px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .portfolio__link {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0;
+    }
+}
+.portfolio__link:last-of-type {
+    border: none;
+}
+.portfolio__way {
+    width: 29px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .portfolio__way {
+        width: 27px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .portfolio__way {
+        width: 18px;
+    }
+}
