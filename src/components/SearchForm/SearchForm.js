@@ -8,7 +8,7 @@ export default function Searchform (props){
         <div className="search"> 
         <form className="search-form">
       <div className="searchform__wrapper">
-        <input type="text" className="search-form__input" placeholder="Фильм" />
+        <input type="text" className="search-form__input input__write" placeholder="Фильм"  required />
         <button type="submit" className="searchform__submit"><img src = { find } alt = "find" className = "find__image" /></button>
       </div>
       <div className = "filter">
