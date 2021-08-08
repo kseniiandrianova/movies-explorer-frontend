@@ -6,6 +6,16 @@
     flex-direction: column;
     align-items: center;
 }
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .register {
+        margin-bottom: 232px
+    } 
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .register {
+        
+    }
+}
 .register__form {
     display: flex;
     flex-direction: column;
@@ -100,7 +110,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 551px) and (max-width: 1200px) {
     .register__button {
         margin-top: 173px;
        

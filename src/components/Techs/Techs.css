@@ -108,7 +108,7 @@
 @media screen and (min-width: 320px) and (max-width: 551px) {
     .tech__box {
         justify-content: start;
-        margin-left: 71px;
+        margin-left: 50px;
     }
 }
 .tech__list {

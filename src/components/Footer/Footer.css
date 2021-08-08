@@ -34,13 +34,14 @@
 }
 @media screen and (min-width: 551px) and (max-width: 1200px) {
     .footer__title {
-        width: 708px;
+        max-width: 708px;
+        width: 100%;
         
     } 
 }
 @media screen and (min-width: 320px) and (max-width: 551px) {
     .footer__title {
-        width: 300px;
+        max-width: 300px;
         font-size: 12px;
         line-height: 15px;
     } 
@@ -57,9 +58,10 @@
 }
 @media screen and (min-width: 551px) and (max-width: 1200px) {
     .footer__container {
-        width: 708px;
-        grid-column-gap: 397px;
+        max-width: 708px;
+        grid-column-gap: 120px;
         margin: 0;
+        width: 100%;
         
     } 
 }

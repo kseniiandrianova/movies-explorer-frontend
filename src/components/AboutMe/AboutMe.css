@@ -47,7 +47,7 @@
     }
 }
 .about-me__note {
-    width: 600px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
 }
