@@ -1,0 +1,149 @@
+.register {
+    background: #FFFFFF;
+    margin:0 auto;
+    max-width: 1280px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .register {
+        margin-bottom: 232px
+    } 
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .register {
+        
+    }
+}
+.register__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register__span {
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+.register__input {
+    border:none;
+    /* border-bottom: 2px solid rgb(204,204,204); */
+    color: #000000;
+    width: 396px;
+    height: 46px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    background: #F9F9F9;
+    border-radius: 8px;
+
+}
+
+.register__input:focus{
+    outline: none;
+
+}
+
+
+
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .register__input {
+        width: 396px;
+
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .register__input {
+     width: 260px;
+     font-size: 13px;
+     line-height: 16px;
+     margin-bottom: 20px;
+    }
+}
+
+.register__input_password {
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+    .register__input_password {
+        
+        font-size: 14px;
+        
+        
+    } 
+}
+
+.register__error {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    color: #FF4062;
+    display: none;
+    margin-top: 10px;
+  }
+
+  .register__button {
+    max-width: 396px;
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+    color:#fff;
+    border: none;
+    margin-top: 69px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.register__button:focus{
+    outline: none;
+}
+.register__button:hover{
+    opacity:0.8;
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    .register__button {
+        margin-top: 173px;
+       
+    } 
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .register__button {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 157px;
+    }
+}
+
+.register__login {
+    color:#A0A0A0;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 70px;
+}
+
+.register__login:hover{
+    opacity: 0.7;
+}
+
+.register__login_link {
+    color: black;
+    font-size: 14px;
+    margin-left: 6px;
+    text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 551px) {
+    .register__login {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
